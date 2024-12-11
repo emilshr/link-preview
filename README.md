@@ -1,0 +1,5 @@
+# Is it a new tab?
+
+I have this very weird irk that always makes me open most of the links in a new tab. I don't know if anybody else can relate to this but its one of those weird habits that I have. I do not like enabling "open a link in a new tab" from the chrome settings, because I like to open some links within the active tab itself. So I have created this plugin to know if an `<a>` anchor tag has a `target="_blank"` attribute or not. If the attribute is present, it displays a green dot at the top left of the webpage or it displays a red dot otherwise. This is achieved through basic JS scripting. The script is injected on every website, therefore on some websites where content security policies which disables inline scripting are enabled, this extension wouldn't work. To be fair, its not a big deal for me.
+
+I have not published this to the extension store, so if you wanna self host it refer to [this link](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked)
